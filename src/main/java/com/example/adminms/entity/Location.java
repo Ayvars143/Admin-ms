@@ -1,6 +1,4 @@
-package com.example.adminms.Entity;
-
-import jakarta.persistence.Column;
+package com.example.adminms.entity;
 
 public class Location {
     private Integer id;

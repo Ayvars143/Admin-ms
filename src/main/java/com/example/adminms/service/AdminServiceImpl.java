@@ -1,13 +1,10 @@
-package com.example.adminms.Service;
+package com.example.adminms.service;
 
-import com.example.adminms.Entity.Location;
+import com.example.adminms.entity.Location;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.*;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
-
-import java.util.Arrays;
-import java.util.List;
 
 @Service
 public class AdminServiceImpl implements AdminService{

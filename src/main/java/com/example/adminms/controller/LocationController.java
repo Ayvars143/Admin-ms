@@ -1,8 +1,8 @@
-package com.example.adminms.Controller;
+package com.example.adminms.controller;
 
 
-import com.example.adminms.Entity.Location;
-import com.example.adminms.Service.AdminService;
+import com.example.adminms.entity.Location;
+import com.example.adminms.service.AdminService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

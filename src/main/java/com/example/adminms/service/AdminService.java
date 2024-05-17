@@ -1,6 +1,6 @@
-package com.example.adminms.Service;
+package com.example.adminms.service;
 
-import com.example.adminms.Entity.Location;
+import com.example.adminms.entity.Location;
 import org.springframework.http.ResponseEntity;
 
 import java.util.List;
