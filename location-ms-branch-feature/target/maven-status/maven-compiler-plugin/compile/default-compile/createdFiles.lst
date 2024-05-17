@@ -1,0 +1,8 @@
+org\example\location\service\LocationService.class
+org\example\location\Location.class
+org\example\location\service\LocationServiceImpl.class
+org\example\location\exception\LocationNotFoundException.class
+org\example\location\repository\LocationRepository.class
+org\example\location\entity\Location.class
+org\example\location\exception\DuplicateLocationFound.class
+org\example\location\controller\LocationController.class
