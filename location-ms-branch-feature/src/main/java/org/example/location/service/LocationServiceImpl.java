@@ -9,6 +9,7 @@ import org.springframework.stereotype.Service;
 import org.example.location.repository.LocationRepository;
 
 import java.util.List;
+import java.util.Optional;
 
 @Service
 @Primary
@@ -56,11 +57,11 @@ public class LocationServiceImpl implements LocationService {
 
    public ResponseEntity<String> deleteLocation(int id) {
        // locationRepository.deleteById(id);
-       if (locationRepository.existsById(id)) {
+       if (locationRepository.findById(id).isPresent()) {
            locationRepository.deleteById(id);
            return ResponseEntity.ok(" City is Deleted successfully");
        } else {
-           return ResponseEntity.status(HttpStatus.NOT_FOUND).body("City not found");
+           return ResponseEntity.status(HttpStatus.ALREADY_REPORTED).body("City not found");
        }
     }
 
